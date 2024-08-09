@@ -20,11 +20,11 @@ This repository contains the design and simulation of a robotic arm, developed u
 # Installing Simscape Multibody
 • Simscape™ Multibody™ Link is a plugin that you can install on CAD applications to export assembly models to Simscape Multibody. Specifically, the plugin exports a CAD assembly model as an XML file and body geometry files that you can convert into Simscape Multibody models using the smimport function. The plugin supports:
 
-SolidWorks®
+## SolidWorks®
 
-Autodesk Inventor®
+## Autodesk Inventor®
 
-PTC®Creo™
+## PTC®Creo™
 
 • For detailed setup instructions, follow this link:
 
@@ -33,13 +33,13 @@ https://www.mathworks.com/help/smlink/ug/installing-and-linking-simmechanics-lin
 # Assembly
 • To see my parts, navigate to the models/ directory.
 
-Assemble the Parts:
+### Assemble the Parts:
 
 • Open the .iam (assembly) file in Autodesk Inventor to start the assembly process.
 
 • If the assembly file is not provided, start by opening each part file (.ipt) in Autodesk Inventor.
 
-Use the assembly environment in Inventor to:
+### Use the assembly environment in Inventor to:
 
 • Constrain components (e.g., joints, screws, and motors) together to form the complete robotic arm.
 
@@ -48,36 +48,36 @@ Use the assembly environment in Inventor to:
 # Exporting The Model Into Simulink/Simscape
 • Depending on where you're exporting from, the instructions will be different.
 
-• USING INVENTOR - Follow this link:
+### USING INVENTOR - Follow this link:
 
 https://www.mathworks.com/help/smlink/ug/export-robot-assembly-from-autodesk-inventor-software.html
 
-• USING SOLIDWORKs - Follow this link:
+### USING SOLIDWORKs - Follow this link:
 
 https://www.mathworks.com/help/smlink/ug/export-robot-assembly-from-solidworks-software.html
 
-• USING PTC CREO - Follow this link: 
+### USING PTC CREO - Follow this link: 
 
 https://www.mathworks.com/help/smlink/ug/export-robot-assembly-from-proengineer-software.html
 
 # Simulating
 
-Model Initialization:
+## Model Initialization:
 
 • Open the Simulink model and ensure all required Simscape blocks are connected properly.
 • Check the parameters for physical components like joints, motors, and link masses in the Simscape model.
 
 
-Run the Simulation:
+## Run the Simulation:
 
 • Configure the simulation parameters (e.g., start/stop time, solver options).
 Run the simulation to analyze the robotic arm’s kinematics, dynamics, and control performance.
 
-Visualize Results:
+## Visualize Results:
 
 • Use Simulink scopes and Simscape logging to visualize the simulation results, such as joint angles, velocities, and forces.
 
-Visualize the Simulation: 
+## Visualize the Simulation: 
 
 • If using the Simulink 3D Animation Toolbox, open the VRML file in the visualization/ directory to see an enhanced 3D visualization of the robotic arm in action.
 
