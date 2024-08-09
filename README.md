@@ -51,6 +51,7 @@ https://www.mathworks.com/help/smlink/ug/export-robot-assembly-from-proengineer-
 # Simulating
 
 Model Initialization:
+
 • Open the Simulink model and ensure all required Simscape blocks are connected properly.
 • Check the parameters for physical components like joints, motors, and link masses in the Simscape model.
 
