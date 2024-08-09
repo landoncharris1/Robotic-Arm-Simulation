@@ -26,7 +26,7 @@ This repository contains the design and simulation of a robotic arm, developed u
 
 ## PTC®Creo™
 
-• For detailed setup instructions, follow this link:
+• Whichever you choose, for detailed setup instructions, follow this link:
 
 https://www.mathworks.com/help/smlink/ug/installing-and-linking-simmechanics-link-software.html
 
