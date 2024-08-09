@@ -36,11 +36,13 @@ https://www.mathworks.com/help/smlink/ug/installing-and-linking-simmechanics-lin
 Assemble the Parts:
 
 • Open the .iam (assembly) file in Autodesk Inventor to start the assembly process.
+
 • If the assembly file is not provided, start by opening each part file (.ipt) in Autodesk Inventor.
 
 Use the assembly environment in Inventor to:
 
 • Constrain components (e.g., joints, screws, and motors) together to form the complete robotic arm.
+
 • Apply the appropriate constraints (e.g., mate, insert, angle) to align and secure the parts.
 
 # Exporting The Model Into Simulink/Simscape
