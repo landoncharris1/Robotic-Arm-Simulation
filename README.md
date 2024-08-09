@@ -11,7 +11,7 @@ This repository contains the design and simulation of a robotic arm, developed u
 
 # Prerequisites
 
-• Solidworks 2001Plus and higher or Autodesk Inventor 2009-2021: For viewing and modifying the 3D models and engineering drawings.
+• Solidworks 2001Plus and higher, Autodesk Inventor 2009-2021, or PTC Creo 1.0-8.0: For viewing and modifying the 3D models and engineering drawings.
 
 • MATLAB/Simulink: For running the simulations and system integration.
 
@@ -33,14 +33,34 @@ https://www.mathworks.com/help/smlink/ug/installing-and-linking-simmechanics-lin
 # Assembly
 
 
-# Exporting The Model Into Simulink
+# Exporting The Model Into Simulink/Simscape
 • Depending on where you're exporting from, the instructions will be different.
 
-USING INVENTOR:
-
-Follow this link:
+• USING INVENTOR - Follow this link:
 
 https://www.mathworks.com/help/smlink/ug/export-robot-assembly-from-autodesk-inventor-software.html
+
+• USING SOLIDWORKs - Follow this link:
+
+https://www.mathworks.com/help/smlink/ug/export-robot-assembly-from-solidworks-software.html
+
+• USING PTC CREO - Follow this link: 
+
+https://www.mathworks.com/help/smlink/ug/export-robot-assembly-from-proengineer-software.html
+
+# Simulating
+
+Model Initialization:
+• Open the Simulink model and ensure all required Simscape blocks are connected properly.
+• Check the parameters for physical components like joints, motors, and link masses in the Simscape model.
+
+
+Run the Simulation:
+• Configure the simulation parameters (e.g., start/stop time, solver options).
+Run the simulation to analyze the robotic arm’s kinematics, dynamics, and control performance.
+
+Visualize Results:
+• Use Simulink scopes and Simscape logging to visualize the simulation results, such as joint angles, velocities, and forces.
 
 
 
