@@ -9,8 +9,8 @@ This repository contains the design and simulation of a robotic arm, developed u
 
 • Performance Optimization: Fine-tuned the control algorithms to enhance the arm’s functionality and performance.
 
-# Setup Instructions
-Prerequisites-
+# Prerequisites
+
 • Solidworks 2001Plus and higher or Autodesk Inventor 2009-2021: For viewing and modifying the 3D models and engineering drawings.
 
 • MATLAB/Simulink: For running the simulations and system integration.
@@ -29,5 +29,18 @@ PTC®Creo™
 • For detailed setup instructions, follow this link:
 
 https://www.mathworks.com/help/smlink/ug/installing-and-linking-simmechanics-link-software.html
+
+# Assembly
+
+
+# Exporting The Model Into Simulink
+• Depending on where you're exporting from, the instructions will be different.
+
+USING INVENTOR:
+
+Follow this link:
+
+https://www.mathworks.com/help/smlink/ug/export-robot-assembly-from-autodesk-inventor-software.html
+
 
 
