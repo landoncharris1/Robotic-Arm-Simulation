@@ -10,10 +10,20 @@ Virtual Testing: Conducted simulations to evaluate the robotic arm’s kinematic
 Performance Optimization: Fine-tuned the control algorithms to enhance the arm’s functionality and performance.
 
 # Setup Instructions
-Prerequisites
-Autodesk Inventor: For viewing and modifying the 3D models and engineering drawings.
+Prerequisites-
+Solidworks 2001Plus and higher or Autodesk Inventor 2009-2021: For viewing and modifying the 3D models and engineering drawings.
+
 MATLAB/Simulink: For running the simulations and system integration.
+
 Simulink 3D Animation Toolbox (optional): For enhanced visualization of the robotic arm in the simulation environment.
 
-# Installing 
-•
+# Installing Simscape
+• Simscape™ Multibody™ Link is a plugin that you can install on CAD applications to export assembly models to Simscape Multibody. Specifically, the plugin exports a CAD assembly model as an XML file and body geometry files that you can convert into Simscape Multibody models using the smimport function. The plugin supports:
+
+SolidWorks®
+
+Autodesk Inventor®
+
+PTC®Creo™
+
+
