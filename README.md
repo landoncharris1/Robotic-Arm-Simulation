@@ -17,7 +17,7 @@ Prerequisites-
 
 • Simulink 3D Animation Toolbox (optional): For enhanced visualization of the robotic arm in the simulation environment.
 
-# Installing Simscape
+# Installing Simscape Multibody
 • Simscape™ Multibody™ Link is a plugin that you can install on CAD applications to export assembly models to Simscape Multibody. Specifically, the plugin exports a CAD assembly model as an XML file and body geometry files that you can convert into Simscape Multibody models using the smimport function. The plugin supports:
 
 SolidWorks®
@@ -25,5 +25,8 @@ SolidWorks®
 Autodesk Inventor®
 
 PTC®Creo™
+
+• For detailed setup instructions, follow this link:
+https://www.mathworks.com/help/smlink/ug/installing-and-linking-simmechanics-link-software.html
 
 
